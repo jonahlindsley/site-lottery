@@ -14,10 +14,8 @@ const Animations = () => {
 
     return (
         <div>
-            <div className="headers">
-                <button className='btn' onClick={handleColor}>change color</button>
-            </div>
             <div id="container">
+            <button className='btn' onClick={handleColor}>change color</button>
             {/* first color selection */}
             {color === "first" &&
                 <div className='colorContainer' id={color}>

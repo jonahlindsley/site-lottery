@@ -1,11 +1,17 @@
 .App {
   text-align: center;
+  align-items: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.main {
+  align-items: center;
+  justify-content: center;
 }
 
 body {

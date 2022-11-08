@@ -10,10 +10,10 @@ const Headers = () => {
         setAnswer(headerList[headerRandom])
     }
     return (
-        <div>
-            <div className="headers">
+        <div className='headerContainer'>
+            <div >
                 <button className="btn" onClick={handleHeader}>Give me insperaition</button>
-                {answer}
+                <h2>{answer}</h2>
             </div>
         </div>
     )
