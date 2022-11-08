@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import Header from './components/Header/Header'
+import ColorScheme from './components/ColorScheme/ColorScheme'
+import Headers from './components/Headers/Headers'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <h1>Welcome to the website lottery, a place for the uncertan programmer!</h1>
+      <h2>Have you ever found yourself wanting to follow JD's advice and keep making websites for practice but for the life of you you can't think of a single idea of what to make? me too! so I made a website to tell all us uncertain baby programmers what to make so we don't have to waste our caffine high thinking of decent idea's of what to make a website about and we can focus on the important things in life like "why won't that damn div move 5 more pixels to the left!?"</h2>
+      <Headers />
+      <ColorScheme />
     </div>
   );
 }

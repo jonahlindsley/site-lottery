@@ -1,0 +1,267 @@
+/* .header {
+    background-color: #808080;
+    width: 500px;
+    height: 58px;
+    color: #000;
+    margin: 10px;
+} */
+
+.btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: palegreen;
+}
+
+.btn:hover {
+    background-color: palevioletred;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.colorContainer {
+    width: 70%;
+    height: 300PX;
+    align-items: center;
+    display: flex;
+    background-color: #808080;
+    padding: 25px;
+    border-radius: 30px;
+}
+
+.colorChild {
+    width: 20%;
+    height: 100%;
+    font-weight: 700;
+    margin: 8px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 200px;
+}
+
+/* first color selection */
+#first #one {
+    background-color: #373e98;
+}
+
+#first #two {
+    background-color: #f16775;
+}
+
+#first #three {
+    background-color: #fee36e;
+}
+
+#first #four {
+    background-color: #ceb92c;
+}
+
+#first #five {
+    background-color: #2a2a2a;
+    color: #fae5df;
+}
+
+/* second color selection */
+#second #one {
+    background-color: #000000;
+    color: #fae5df;
+}
+
+#second #two {
+    background-color: #565656;
+    color: #fae5df;
+}
+
+#second #three {
+    background-color: #9e9e9e;
+}
+
+#second #four {
+    background-color: #fba92c;
+}
+
+#second #five {
+    background-color: #FFFFFF;
+}
+
+/* third color selection */
+#third #one {
+    background-color: #c8b7a6;
+}
+
+#third #two {
+    background-color: #7d94b5;
+}
+
+#third #three {
+    background-color: #c29591;
+}
+
+#third #four {
+    background-color: #703f37;
+    color: #fae5df;
+}
+
+#third #five {
+    background-color: #b6c199;
+}
+
+/* fourth color selection */
+#fourth #one {
+    background-color: #abd699;
+}
+
+#fourth #two {
+    background-color: #ffe26a;
+}
+
+#fourth #three {
+    background-color: #75c9b7;
+}
+
+#fourth #four {
+    background-color: #c7ddcc;
+}
+
+#fourth #five {
+    background-color: #16123f;
+    color: #fae5df;
+}
+
+/* fifth color selection */
+#fifth #one {
+    background-color: #A96762;
+}
+
+#fifth #two {
+    background-color: #2F5C8F;
+    color: #fae5df;
+}
+
+#fifth #three {
+    background-color: #d85c27;
+}
+
+#fifth #four {
+    background-color: #b999be;
+}
+
+#fifth #five {
+    background-color: #14365d;
+    color: #fae5df;
+}
+
+/* sixth color selection */
+#sixth #one {
+    background-color: #f4d8ae;
+}
+
+#sixth #two {
+    background-color: #dc7027;
+}
+
+#sixth #three {
+    background-color: #b6c48e;
+}
+
+#sixth #four {
+    background-color: #ea8a81;
+}
+
+#sixth #five {
+    background-color: #301008;
+    color: #fae5df;
+}
+
+/* seventh color selection */
+#seventh #one {
+    background-color: #4cbfa6;
+}
+
+#seventh #two {
+    background-color: #f6ebf4;
+}
+
+#seventh #three {
+    background-color: #482673;
+    color: #fae5df;
+}
+
+#seventh #four {
+    background-color: #ed0b70;
+}
+
+#seventh #five {
+    background-color: #301008;
+    color: #fae5df;
+}
+
+/* eighth color selection */
+#eighth #one {
+    background-color: #397754;
+}
+
+#eighth #two {
+    background-color: #f0a3bc;
+}
+
+#eighth #three {
+    background-color: #70be51;
+}
+
+#eighth #four {
+    background-color: #eb6b40;
+}
+
+#eighth #five {
+    background-color: #9b45b2;
+}
+
+/* ninth color selection */
+#ninth #one {
+    background-color: #2b6777;
+    color: #fae5df;
+}
+
+#ninth #two {
+    background-color: #c8d8e4;
+}
+
+#ninth #three {
+    background-color: #ffffff;
+}
+
+#ninth #four {
+    background-color: #f2f2f2;
+}
+
+#ninth #five {
+    background-color: #52ab98;
+}
+
+/* tenth color selection */
+#tenth #one {
+    background-color: #fae5df;
+}
+
+#tenth #two {
+    background-color: #f5cac2;
+}
+
+#tenth #three {
+    background-color: #ed7966;
+}
+
+#tenth #four {
+    background-color: #303179;
+    color: #fae5df;
+}
+
+#tenth #five {
+    background-color: #141850;
+    color: #fae5df;
+}
