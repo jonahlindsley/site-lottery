@@ -3,6 +3,8 @@ import ColorScheme from './components/ColorScheme/ColorScheme'
 import Headers from './components/Headers/Headers'
 import Subjects from './components/Subjects/Subjects'
 import Additional from './components/Additional/Additional'
+import Complete from './components/Complete/Complete'
+import Footer from './components/Footer/Footer'
 import './App.css';
 
 function App() {
@@ -11,12 +13,14 @@ function App() {
       <Header />
       <div className='main'> 
       <h1>Welcome to the website lottery, a place for the uncertan programmer!</h1>
-      <h2>Have you ever found yourself wanting to follow JD's advice and keep making websites for practice but for the life of you you can't think of a single idea of what to make? me too! so I made a website to tell all us uncertain baby programmers what to make so we don't have to waste our caffine high thinking of decent idea's of what to make a website about and we can focus on the important things in life like "why won't that damn div move 5 more pixels to the left!?"</h2>
+      <h2 className='mainText'>Have you ever found yourself wanting to follow JD's advice and keep making websites for practice but for the life of you you can't think of a single idea of what to make? me too! so I made a website to tell all us uncertain baby programmers what to make so we don't have to waste our caffine high thinking of decent idea's of what to make a website about and we can focus on the important things in life like "why won't that damn div move 5 more pixels to the left!?"</h2>
+      <Complete />
       <Headers />
       <ColorScheme />
       <Subjects />
       <Additional />
       </div>
+      <Footer />
     </div>
   );
 }

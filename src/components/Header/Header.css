@@ -2,12 +2,13 @@
 header {
     height: 70px;
     width: 100%;
-    background-color: palevioletred;
+    background-color: #303179;
     text-align: end;
     display: flex;
     justify-content: center;
     padding-top: 10px;
     border-bottom: 3px solid rgb(75, 122, 208);
+    margin-bottom: 80px;
 }
 
 

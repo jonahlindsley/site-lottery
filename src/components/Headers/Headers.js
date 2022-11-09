@@ -1,8 +1,9 @@
 import react, { useState } from 'react'
 import './Headers.css'
 import "../Standard/Standard.css"
+
 const Headers = () => {
-    const headerList = ["Top header, not sticky, logo on the left with links on the right", "Sticky Top header", "Two Headers, one fixed and one sticky engaging after scrolling down one section", "Use a sidebar nav not header", "Use a mobile optimized header with a hamburger button style dropdown"]
+    const headerList = ["Top header, not sticky, logo on the left with links on the right", "Sticky Top header", "Two Headers, one fixed and one sticky engaging after scrolling down one section", "Use a sidebar nav not a header", "Use a mobile optimized header with a hamburger button style dropdown"]
 
     const [answer, setAnswer] = useState('')
 
@@ -20,4 +21,4 @@ const Headers = () => {
     )
 }
 
-export default Headers
+export default Headers;

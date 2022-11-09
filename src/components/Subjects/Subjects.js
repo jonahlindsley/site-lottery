@@ -14,7 +14,7 @@ const Subjects = () => {
     }
     return (
 
-        <div className='container' id='subject'>
+        <div className='containerSubject' id='subject'>
             <button onClick={HandleSubject} className="btn">what should my site be about?</button>
             <h2>{subject}</h2>
         </div>
