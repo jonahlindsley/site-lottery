@@ -1,4 +1,5 @@
 import './ColorScheme.css'
+import "../Standard/Standard.css"
 import react, { useState } from 'react'
 
 const Animations = () => {
@@ -14,8 +15,8 @@ const Animations = () => {
 
     return (
         <div>
-            <div id="container">
-            <button className='btn' onClick={handleColor}>change color</button>
+            <div id="colors" className='container'>
+            <button className='btn' onClick={handleColor}>What should the color be?</button>
             {/* first color selection */}
             {color === "first" &&
                 <div className='colorContainer' id={color}>

@@ -2,6 +2,7 @@ import Header from './components/Header/Header'
 import ColorScheme from './components/ColorScheme/ColorScheme'
 import Headers from './components/Headers/Headers'
 import Subjects from './components/Subjects/Subjects'
+import Additional from './components/Additional/Additional'
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Headers />
       <ColorScheme />
       <Subjects />
+      <Additional />
       </div>
     </div>
   );

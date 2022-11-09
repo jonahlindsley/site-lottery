@@ -1,18 +1,18 @@
 import './Header.css'
+import "../Standard/Standard.css"
 
 
 const Header = () => {
 
     return (
         <header>
-                <a target="blank" rel="noreferrer" href='#' className="links" >Others projects</a>
-                 <a target="blank" rel="noreferrer" href="#" className="links">Header style</a>
-                 <a target="blank" rel="noreferrer" href="#" className="links">Subject's</a>
-                 <a target="blank" rel="noreferrer" href="#" className="links">Footer's</a>
-                 <a target="blank" rel="noreferrer" href="#" className="links">Color scheme's</a>
-                 <a target="blank" rel="noreferrer" href="#" className="links">Unique feature's</a>
-                 <a target="blank" rel="noreferrer" href="#" className="links">Host site</a>
-                 <a target="blank" rel="noreferrer" href="#" className="links"></a>
+                <a rel="noreferrer" href='#' className="links" >Completed projects</a>
+                 <a rel="noreferrer" href="#header" className="links">Headers</a>
+                 <a rel="noreferrer" href="#subject" className="links">Subjects</a>
+                 <a rel="noreferrer" href="#" className="links">Complete design</a>
+                 <a rel="noreferrer" href="#colors" className="links">Color schemes</a>
+                 <a rel="noreferrer" href="#ideas" className="links">Additional ideas</a>
+                 <a rel="noreferrer" href="#" className="links">Host site</a>
         </header>
     )
 }
